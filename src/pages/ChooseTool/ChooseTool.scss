@@ -1,0 +1,69 @@
+@import '../../styles/app';
+.labelntext{
+    .la {
+        font-size: 10em;
+        color: #5EC7FA;
+    }
+}
+.Toolcard {
+    padding: 5% 7%;
+
+    @media (min-width: 1500px){
+        padding: 9% 12%;
+    }
+    .bg-card {
+        background-color: rgba(49, 50, 51, 0.7) !important;
+    }
+
+    .bg-card-choose {
+        background-color: rgba(49, 50, 51, 0.7) !important;
+        border: 1px solid #f1d12e;
+    }
+
+    .btn-card {
+        background-color: #313233;
+        color: #fff;
+        border: unset;
+        height: 5vh;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+
+    .btn-card-choose {
+        background-color: #f1d12e !important;
+        color: #fff;
+        border: unset;
+        height: 5vh;
+        letter-spacing: 2px;
+        font-size: 15px;
+
+        
+    }
+
+    .btn-card-choose:hover {
+        background-color: unset;
+        border-color: unset;
+    }
+
+    .icon-card {
+        border: solid;
+        width: fit-content;
+        padding: 2%;
+        background-color: #313233;
+        float: left;
+        margin-right: 3%;
+
+        i {
+            font-size: xx-large;
+        }
+    }
+
+    h4 {
+        letter-spacing: 2px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+

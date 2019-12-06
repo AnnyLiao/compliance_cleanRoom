@@ -1,0 +1,216 @@
+@import '../../styles/app';
+
+.WidTable{
+    background: rgba(49, 50, 51, 0.2) !important;
+    .table {
+        color: white !important;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(49, 50, 51, 0.7);
+    }
+
+    .tableClearBtn {
+        color: #c3c1db;
+        border-color: #c3c1db;
+        background-color: unset;
+    }
+
+    .custom-select {
+        background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 1rem center/8px 10px;
+        background-color: unset !important;
+        color: white;
+    }
+
+    .btn-secondary {
+        border-color: #c1ccd3;
+        color: #fff;
+        background-color: unset !important;
+        background: unset !important;
+    }
+
+    .badge {
+        font-size: 18px;
+        background-color: #f1d12e;
+        width: max-content;
+        text-align: center;
+        letter-spacing: 5px;
+        padding: 1% 2%;
+        color: rgba(49, 50, 51, 0.7);
+    }
+
+    div::-webkit-scrollbar
+    {
+        height:15px;
+    }
+    div::-webkit-scrollbar-track
+    {
+        background-color: #c3c1db;
+    }
+    div::-webkit-scrollbar-thumb
+    {
+        background-color: rgba(49, 50, 51, 0.7);
+        
+    }
+
+    .page-link {
+        color: white;
+        background-color: unset !important;
+    }
+
+    .page-item.active .page-link {
+        color: white;
+        background-color: rgba(49, 50, 51, 0.7) !important;
+    }
+
+    .page-item.disabled .page-link {
+        color: white;
+        background-color: unset !important;
+    }
+
+    .table-bordered {
+        height: 40vh;
+        position: relative;
+        thead {
+            background-color: rgba(49, 50, 51, 0.7);
+
+            tr{
+                th {
+                    background-color: rgba(49, 50, 51, 0.7) !important;
+                    color: white;
+                    position: sticky;
+                    top: 0;
+                }
+
+                th:first-child {
+                    
+                    background-color: #313233 !important;
+                    color: white;
+                    position: sticky;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+            }
+
+        }
+
+        tbody {
+            max-height: fit-content;
+            tr{
+                th {
+                    background-color: #c4c7c9 !important;
+                    position: sticky;
+                    left: 0;
+                }
+            }
+        }
+
+        
+
+        
+        
+    }
+
+    
+
+}
+
+.tables-basic {
+    .table th {
+        font-size: $font-size-sm;
+    }
+}
+
+.table td {
+    vertical-align: baseline;
+}
+
+.btn-contain {
+    display: flex;
+    flex-direction: row-reverse;
+
+    button {
+        display: flex;
+        margin-top: 2%;
+    }
+}
+
+.modal-backdrop{
+  opacity:0.7; transition:opacity .2s;
+}
+
+.tableBtn {
+    float: right;
+}
+
+.hidden_header {
+    display: none;
+  }
+// .modal-backdrop.in{
+//   opacity:.7;
+// }
+
+
+.wrap {
+    margin-top: 2%;
+    .table th, .table td {
+        white-space: nowrap;
+    }
+}
+
+#modal-lg {
+    padding-top: 0px;
+    .table-bordered th {
+        background-color: unset;
+    }
+
+    .detailModal {
+        // margin-top: 0px !important;
+        // margin-bottom: 0px !important;
+        margin: 0px !important;
+        h4 {
+            color: black;
+            padding-top: 33%;
+            padding-left: 26%;
+            font-weight: 400;
+        }
+    }
+}
+
+#hashText {
+    padding-top: 0px;
+}
+
+// #checkSet, #hashText{
+
+//     .modal-header{
+//         border-bottom: 1px solid #8a8c8f;
+//     }
+
+//     .modal-footer {
+//         border-top: 1px solid #8a8c8f;
+//     }
+    
+        
+    
+// }
+
+.modal-content > .modal-header {
+    border-bottom: 1px solid #8a8c8f;
+}
+
+.modal-content > .modal-footer {
+    border-top: 1px solid #8a8c8f;
+}
+
+.detailBtn {
+    background-color: #c6c6c6 !important;
+    color: #5d5263 !important;
+    border-color: #5d5263 !important;
+
+}
+.detailBtn:hover {
+    background-color: #3b3b3bc7 !important;
+    color: white !important;
+}

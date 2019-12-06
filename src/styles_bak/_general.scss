@@ -1,0 +1,52 @@
+html {
+  font-weight: 100;
+  font-size: $font-size-initial;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #6b6d6f  ;
+  overflow-x: hidden;
+  color: $text-color;
+  background: url('../assets/background.png'), radial-gradient(farthest-side ellipse at 10% 0,#6b6d6f , #6b6d6f );
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+}
+
+a,
+.dropdown-item,
+.btn {
+  cursor: pointer;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+  font-family: $font-family-base;
+}
+
+th {
+  font-weight: 600;
+}
+
+label {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ul ul,
+ol ul {
+  list-style: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+

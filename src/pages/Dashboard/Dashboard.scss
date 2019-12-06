@@ -1,0 +1,55 @@
+@import '../../styles/app';
+
+.dashboard-page {
+  color: #313233;
+  margin-top: 5%;
+  .display-4 {
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+  .post-comments footer {
+    margin: 0 (-$widget-padding-horizontal) (-$widget-padding-vertical);
+    padding: $widget-padding-vertical $widget-padding-horizontal;
+  }
+
+  .stat-item .name {
+    margin-top: 10px;
+  }
+
+  .table {
+    .table.table-sm {
+      td {
+        font-size: 1rem;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .text-decoration {
+    text-shadow: 2px 5px 0px #d7dadc, 0px 14px 10px rgba(0,0,0,0.15), 0px 24px 2px rgba(0,0,0,0.1), 0px 34px 30px rgba(0,0,0,0.1);
+
+  }
+
+  img {
+    width: 29vw;
+    @media (min-width: 1500px){
+      width: 34vw;
+    }
+  }
+
+}
+
+.v-calendar {
+  background: none !important;
+  border: none !important;
+  display: block !important;
+  color: $text-color !important;
+}
+
+.area-chart :global(canvas) {
+  width: 100% !important;
+}
+
+
+
+

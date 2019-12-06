@@ -1,0 +1,109 @@
+@import "../../styles/app";
+.drop {
+  // border: 3px dashed rgb(143, 167, 208);
+  height: 30vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  .custom-file-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-top: 2%;
+
+    cursor: pointer;
+
+    i {
+      font-size: 2.5em;
+    }
+
+    p {
+      display: flex;
+      margin-top: 1%;
+      font-size: 1.5em;
+    }
+  }
+}
+
+.changePage {
+  color: #444 !important;
+  font-size: 15px;
+  float: right;
+}
+
+.headerClass {
+  font-size: 20px;
+}
+
+.data_select {
+  border: solid 1px white;
+  padding: 1%;
+  margin: 3% 2% 2% !important;
+}
+
+.chooseFile_title {
+  margin-bottom: 2%;
+
+  .btn-secondary {
+    position: relative;
+    top: -17%;
+    color: #fff;
+    background-color: rgba(49, 50, 51, 0.7);
+    width: 9vw;
+    height: 6vh;
+
+    @media (min-width: 1500px){
+      top: -22%;
+      height: 5vh;
+    }
+  }
+
+  hr {
+    width: 100%;
+    background-color: white;
+  }
+}
+
+.radio {
+  input[type="radio"]{
+    display: none;
+    // background:url(/img/radio_dis.png)
+  }
+  
+  input[type="radio"] + label{
+    font-size:1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="radio"] + label span{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    vertical-align:middle;
+    background:url(../../assets/radio_dis.png);
+    cursor:pointer;
+    margin-right: 10px;
+  }
+  
+  input[type="radio"]:checked + label span{
+    background: url(../../assets/radio_en.png);
+  }
+}
+
+

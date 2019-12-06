@@ -1,0 +1,185 @@
+@import '../../styles/app';
+
+.dashboard-page {
+  .post-comments footer {
+    margin: 0 (-$widget-padding-horizontal) (-$widget-padding-vertical);
+    padding: $widget-padding-vertical $widget-padding-horizontal;
+  }
+
+  .stat-item .name {
+    margin-top: 10px;
+  }
+
+  .table {
+    .table.table-sm {
+      td {
+        font-size: 1rem;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.v-calendar {
+  background: none !important;
+  border: none !important;
+  display: block !important;
+  color: $text-color !important;
+}
+
+.area-chart :global(canvas) {
+  width: 100% !important;
+}
+html{
+  font-family: '微軟正黑體';
+}
+
+.top-grid{
+  display: grid;
+  grid-template-columns: 85% 15%;
+  padding-bottom: 20px;
+  border-bottom: 0.5px #FFFFFFB3 solid;
+}
+
+.top-grid h1{
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
+
+.top-grid a{
+  border: 0.5px white solid;
+  border-radius: 5px;
+  color: white;
+  font-family: '微軟正黑體';
+  font-weight: normal;
+  background-color: #313233B3;
+  padding:10px 30px;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-decoration:none;
+}
+
+.top-grid a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.instructions{
+  font-size: 1.2rem;
+  color:white;
+  padding:10px 0px;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
+
+.box{
+  background-color: #313233B3;
+  color:white;
+  letter-spacing: 0.1rem;
+  padding:20px;
+  margin:5px 0px;
+}
+
+.box p{
+  margin:30px 0px 0px 0px;
+  padding-left:15px;
+}
+
+.box input[type="radio"]{
+  display: none;
+  // background:url(/img/radio_dis.png)
+}
+
+.box input[type="radio"] + label{
+  font-size:1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.box input[type="radio"] + label span{
+  display:inline-block;
+  width:20px;
+  height:20px;
+  vertical-align:middle;
+  background:url(../../assets/radio_dis.png);
+  cursor:pointer;
+  margin-right: 10px;
+}
+
+.box input[type="radio"]:checked + label span{
+  background: url(../../assets/radio_en.png);
+}
+
+.marker-color{
+  color:#f1d121;
+}
+
+.box-1{
+  background-color: #313233B3;
+  color:#c3c1db;
+  letter-spacing: 0.1rem;
+  padding:20px;
+  margin:5px 0px;
+}
+
+.box-1 p{
+  margin:30px 0px 0px 0px;
+  padding-left:15px;
+}
+
+.box-1 input[type="button"]{
+  border: 0.5px #c3c1db solid;
+  border-radius: 5px;
+  color: #c3c1db;
+  font-family: '微軟正黑體';
+  font-weight: normal;
+  background-color: #31323300;
+  padding:5px 15px;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.box-1 input[type="button"] + label{
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
